@@ -1,0 +1,20 @@
+.logo__img {
+    background-image: url(../img/Logo_gradient.svg);
+}
+body {
+	    background-color:#1f0757;
+}
+.header.sticky {
+    
+    background-color: #4731B7;
+}  
+
+.logo__img {
+    width: 60px;
+    height: 60px;
+}  
+@media (min-width:992px) {
+    .promo {
+     padding-top:180px;
+    }
+}
