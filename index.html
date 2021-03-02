@@ -1184,7 +1184,7 @@ Thanks to blockchain, we can have the best of both worlds: digital raw material 
                                         </div>
                                     </div>
                                     <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.6s">
-                                        <button type="submit" class="btn micom1-btn">Send Message</button>
+                                        <button type="button" class="btn micom1-btn" name="enviar" onclick="javascript:enviar_correo();">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -1195,7 +1195,7 @@ Thanks to blockchain, we can have the best of both worlds: digital raw material 
         </div>
         <!-- ##### Contact Area End ##### -->
 
-        <div class="footer-content-area " style="background-image: url(img/core-img/footer-bg1.png);">
+        <div class="footer-content-area" style="background-image: url(img/core-img/footer-bg1.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
             <div class="container">
                 <div class="row align-items-end">
                     <div class="col-12 col-md-5">
@@ -1271,6 +1271,30 @@ Thanks to blockchain, we can have the best of both worlds: digital raw material 
 
     <!-- script js -->
     <script src="js/script.js"></script>
+    <script>
+        function enviar_correo(){
+          var correo = new FormData();
+    
+          correo.append("name", document.getElementById("name").value);
+          correo.append("email", document.getElementById("email").value);
+          correo.append("subject", document.getElementById("subject").value);
+          correo.append("message", document.getElementById("message").value);
+    
+          $.ajax({
+            url: "contact.php",
+            type:"POST",
+            data: correo,
+            cache:false,
+            contentType: false,
+            processData: false,
+            success: function(resp){
+              console.log(resp);
+              msj=JSON.parse(resp);
+              alert(msj.mensaje);
+            }
+          });
+        }
+        </script>
 
 </body>
 
