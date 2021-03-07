@@ -406,7 +406,7 @@ ol {
 .section-before:before{
     content: '';
     position: absolute;
-    top: -75px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     height: 150px;
@@ -443,7 +443,7 @@ ol {
 }
 
 .section-padding-200 {
-    padding-top: 200px;
+    padding-top: 200px !important;
     padding-bottom: 200px;
 }
 
