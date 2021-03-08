@@ -662,8 +662,8 @@ ol {
     color: #fff;
     box-shadow: 0 3ox 20px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
-    background-image: -webkit-linear-gradient(left, #21d397 0%, #7450fe 51%, #21d397 100%);
-    background-image: linear-gradient(to right, #21d397 0%, #7450fe 51%, #21d397 100%);
+    background-image: -webkit-linear-gradient(left, #f0c234 0%, #ffa44b 51%, #f0c234 100%);
+    background-image: linear-gradient(left, #f0c234 0%, #ffa44b 51%, #f0c234 100%);
     -webkit-transition: all 500ms;
     transition: all 500ms;
 }
@@ -1392,7 +1392,7 @@ p.artficial:before{
   -o-transition:all 0.3s ease;
 }
 .services-block-four .inner-box .icon-box{
-    color: #25cbd3 
+    color: #f0c234;
 }
 
 .services-block-four .inner-box h3 a:hover{
