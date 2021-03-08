@@ -107,7 +107,7 @@ li {
 
 p {
     line-height: 1.9;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 15px;
 }
 
@@ -186,7 +186,7 @@ ol {
     border: 3px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: rgba(255, 255, 255, 0.5);
+    border-top-color: #ffa44b;
     -webkit-animation: dreamrotate 2400ms linear infinite;
     animation: dreamrotate 2400ms linear infinite;
     z-index: 999;
@@ -203,7 +203,7 @@ ol {
     border: 3px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: rgba(255, 255, 255, 0.5);
+    border-top-color: #ffa44b;
     -webkit-animation: dreamrotate 2700ms linear infinite;
     animation: dreamrotate 2700ms linear infinite
 }
@@ -219,7 +219,7 @@ ol {
     border: 3px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: rgba(255, 255, 255, 0.5);
+    border-top-color: #ffa44b;
     -webkit-animation: dreamrotate 1800ms linear infinite;
     animation: dreamrotate 1800ms linear infinite
 }
@@ -523,7 +523,7 @@ ol {
     position: absolute;
     width: 30%;
     height: 2px;
-    background-color: #fff;
+    background-color: #ffa44b;
     content: "";
     top: 10px;
     right: 100%;
