@@ -130,7 +130,7 @@
 
     // :: onePageNav Active Code
     if ($.fn.onePageNav) {
-        $('#nav').onePageNav({
+        $('.scrollspeed').onePageNav({
             currentClass: 'active',
             scrollSpeed: 1500,
             easing: 'easeOutQuad'
