@@ -694,6 +694,7 @@ ol {
     background-image: linear-gradient(to right, #f0c234 0%, #ffa44b 51%, #f0c234 100%);
     -webkit-transition: all 500ms;
     transition: all 500ms;
+    cursor: pointer;
 }
 
 .micom1-btn:hover {
